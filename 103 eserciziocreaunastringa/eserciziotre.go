@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-// esercizio 0 value
+// esercizio crea una stringa e stampala
 var x int = 42
 var y string = "James Bond"
 var z bool = true
