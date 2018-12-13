@@ -12,6 +12,6 @@ func main() {
 
 	fmt.Printf("%T\n", x)
 	fmt.Printf("%T\n", y)
-	fmt.Printf("%T\n")
+	fmt.Printf("%T\n", z)
 
 }
