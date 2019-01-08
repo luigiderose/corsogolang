@@ -21,5 +21,6 @@ func main() {
 	a := 7  //in questo caso intero
 	b := 42 //in questo caso intero
 
-	fmt.Println(a >= b) //la risposta sarà falsa in quanto il rosultato dell'operazione a maggiore uguale a b è falsa
+	fmt.Println(a >= b) //la risposta sarà falsa in quanto il risultato dell'operazione a maggiore uguale a b è falsa
+	fmt.Println(a <= b) //la risposta sarà vero in quanto il risultato dell'operazione a minore uguale a b è vera
 }
