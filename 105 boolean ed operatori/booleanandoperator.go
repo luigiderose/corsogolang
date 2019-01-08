@@ -18,7 +18,8 @@ func main() {
 
 	//di asegnazione rapida   := assegna tipo e valore a una variabile
 
-	a := 7      //in questo caso intero
-	b := "42,7" //in questo caso long o double
+	a := 7  //in questo caso intero
+	b := 42 //in questo caso intero
 
+	fmt.Println(a >= b) //la risposta sarà falsa in quanto il rosultato dell'operazione a maggiore uguale a b è falsa
 }
