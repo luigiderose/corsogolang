@@ -23,4 +23,6 @@ func main() {
 
 	fmt.Println(a >= b) //la risposta sarà falsa in quanto il risultato dell'operazione a maggiore uguale a b è falsa
 	fmt.Println(a <= b) //la risposta sarà vero in quanto il risultato dell'operazione a minore uguale a b è vera
+	fmt.Println(a != b) // a è diverso da b? si quindi true
+	fmt.Println(a == b) // a è uguale da b? no quindi fale (== confronta) (= assegna)
 }
