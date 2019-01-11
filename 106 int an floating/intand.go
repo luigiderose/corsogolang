@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"runtime"
 )
 
 var z int8 = -128
@@ -20,4 +21,6 @@ func main() {
 	fmt.Printf("%T\n", y)
 	fmt.Printf("%T\n", z)
 
+	fmt.Println(runtime.GOOS)
+	fmt.Println(runtime.GOARCH)
 }
