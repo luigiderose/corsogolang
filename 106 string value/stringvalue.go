@@ -6,7 +6,7 @@ import (
 
 func main() {
 
-	s := "hi everybody"
+	s := "hi everybody" //non è mutabile non può essere cambiata
 
 	fmt.Println(s)
 	fmt.Printf("%T\n", s)
