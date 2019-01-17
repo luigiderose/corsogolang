@@ -17,12 +17,12 @@ func main() {
 
 func shiftdecrementabit(a int) {
 	b := a >> 1                          //decrementa a di 1 bit
-	fmt.Printf("%d, %b ,%#X\n", b, b, b) //stampa b in decimale binario e esadecimale
+	fmt.Printf("%d, %b, %#X\n", b, b, b) //stampa b in decimale binario e esadecimale
 }
 
 func shiftincrementabit(a int) {
 	b := a << 1                          //incrementa a di 1 bit
-	fmt.Printf("%d, %b ,%#X\n", b, b, b) //stampa b in decimale binario e esadecimale
+	fmt.Printf("%d, %b, %#X\n", b, b, b) //stampa b in decimale binario e esadecimale
 }
 
 func randomInt(min, max int) int { //restituisce un intero maggiore uguale a min e minore di max
