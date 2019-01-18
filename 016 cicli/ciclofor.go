@@ -26,5 +26,11 @@ func main() {
 			fmt.Printf("%d\t%d\n", a, b)
 		}
 	}
-
+	/********* ciclo for v3 ***************/
+	x := 1
+	for x < 10 {
+		fmt.Println(x)
+		x++
+	}
+	fmt.Println("done")
 }
