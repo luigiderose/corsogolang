@@ -22,4 +22,10 @@ func main() {
 	for i := 1; i < 4; i++ {
 		fmt.Println(i, x[i])
 	}
+
+	y := x[0:4]
+
+	fmt.Println(y)
+	fmt.Printf("%T", y)
+
 }
