@@ -3,14 +3,14 @@ package main
 import "fmt"
 
 func main() {
-	x := map[string][3]string{
-		"bond_james":      {"Shaken, not stirred", "Martinis", "Women"},
-		"moneypenny_miss": {"James Bond", "Literature", "Computer Science"},
-		"no_dr":           {"Being evil", "Ice cream", "Sunsets"},
+	x := map[string][]string{
+		"bond_james":      []string{"Shaken, not stirred", "Martinis", "Women"},
+		"moneypenny_miss": []string{"James Bond", "Literature", "Computer Science"},
+		"no_dr":           []string{"Being evil", "Ice cream", "Sunsets"},
 	}
 
 	for i, v := range x {
-		fmt.Println("Last_firstname: ", i)
+		fmt.Println("Last_firstname:", i)
 		for _, z := range v {
 			fmt.Printf("\t \t \t \t %v\n", z)
 		}
