@@ -5,19 +5,15 @@ import (
 )
 
 func main() {
-	x := pippo(2, 3, 4, 5, 6, 7, 8, 9, 10)
-	fmt.Println("azz", x)
+	x := sum(2, 4, 5, 6, 7, 8, 9, 10)
+	fmt.Println("il totale è ", x)
 }
 
-func pippo(x ...int) int {
-	fmt.Println(x)
-	fmt.Printf("%T\n", x)
+func sum(a ...int) int {
 	sum := 0
-
-	for i, v := range x {
+	for _, v := range a {
 		sum += v
-		fmt.Println("for item in index position, ", i, " we are now adding, ", v, " the total, is ", sum)
+		fmt.Println("il numero sommatto adesso è ", sum)
 	}
-	fmt.Println("the total is ", sum)
 	return sum
 }
