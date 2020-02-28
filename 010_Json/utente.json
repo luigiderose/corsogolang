@@ -1,0 +1,33 @@
+{
+    "utenti": [
+    {
+        "ID":"1", 
+        "Name":"Luigi", 
+        "player":{
+                    "Life":1000,
+                    "Att":1,
+                    "Dif":1
+        }
+    },
+    
+    {
+        "ID":"2", 
+        "Name":"Pippo", 
+        "player":{
+                    "Life":1000,
+                    "Att":1,
+                    "Dif":1
+        }
+    },
+
+    {
+        "ID":"3", 
+        "Name":"Samurai", 
+        "player":{
+                    "Life":1000,
+                    "Att":1,
+                    "Dif":1
+        }
+    }
+    ] 
+}
