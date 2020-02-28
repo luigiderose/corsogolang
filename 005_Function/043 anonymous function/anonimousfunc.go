@@ -8,7 +8,7 @@ func main() {
 	dichiarata()
 
 	func() {
-		fmt.Println("questa è una funzione anonuma senza argomenti")
+		fmt.Println("questa è una funzione anonima senza argomenti")
 	}()
 
 	func(x string) {
